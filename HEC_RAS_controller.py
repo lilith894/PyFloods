@@ -51,7 +51,7 @@ os.chdir("C:\Users\solo\Dropbox\Python\Solomon_Xing_Min")  ## This has to be adj
 
 # h.OpenProject("")
 # thelist = dir(RC) # what is this?
-thelist = dir(RC)
+thelist = dir(RC) # get RAS-Controller's methods and attributes
 ras_file = 'C:/Users/solo/Dropbox/Python/Solomon_Xing_Min/dtl_tuckasegee_rvr.prj'; # project name ########## CHANGE 1  - file name ###############
 RC.Project_Open(ras_file) # first time use -> pop up for accepting terms
 
